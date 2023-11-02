@@ -25,7 +25,7 @@ Before diving into the project, trainees should have a solid understanding of th
 
 - [LINK-5](<https://www.figma.com/file/lhq819U1orOTRkdqROygoF/Evaly-e-commerce-dashboard-(Community)?type=design&node-id=0-1&mode=design&t=MimCNZTVfGDaa7FS-0>)
 
-**Day 1: Setting Up the Project**
+# **Day 1: Setting Up the Project**
 
 **Morning:**
 
@@ -60,7 +60,7 @@ Before diving into the project, trainees should have a solid understanding of th
 - Commit and push your initial frontend and backend code to the respective GitHub repositories.
 - Use meaningful commit messages, such as "Initial project setup."
 
-**Day 2: Implementing User Authentication**
+# **Day 2: Implementing User Authentication**
 
 **Morning:**
 
@@ -93,7 +93,7 @@ Before diving into the project, trainees should have a solid understanding of th
 - Commit your work related to user registration and database setup.
 - Include descriptive commit messages like "Implemented user registration route and database connection."
 
-**Day 3: User Authentication and Token Generation**
+# **Day 3: User Authentication and Token Generation**
 
 **Morning:**
 
@@ -121,7 +121,7 @@ Before diving into the project, trainees should have a solid understanding of th
 - Commit your work on user login, JWT implementation, and middleware.
 - Use meaningful commit messages like "Implemented user login, JWT generation, and authentication middleware."
 
-**Day 4: Implementing Product Listings and Cart**
+# **Day 4: Implementing Product Listings and Cart**
 
 **Morning:**
 
@@ -153,7 +153,7 @@ Before diving into the project, trainees should have a solid understanding of th
 - Commit your work related to product listings and the shopping cart.
 - Use clear commit messages like "Implemented product listings and shopping cart functionality."
 
-**Day 5: Checkout Process and Payment Integration**
+# **Day 5: Checkout Process and Payment Integration**
 
 **Morning:**
 
@@ -182,7 +182,7 @@ Before diving into the project, trainees should have a solid understanding of th
 - Commit your work related to the checkout process and payment integration.
 - Use meaningful commit messages like "Implemented checkout process and integrated payment gateway."
 
-**Day 6-7: User Profile and Order History**
+# **Day 6-7: User Profile and Order History**
 
 **Morning:**
 
@@ -207,7 +207,7 @@ Before diving into the project, trainees should have a solid understanding of th
 - Commit your work related to user profile and order history features.
 - Use clear commit messages like "Implemented user profile management and order history functionality."
 
-**Day 8-9: Vendor-Specific Features**
+# **Day 8-9: Vendor-Specific Features**
 
 **Morning:**
 
@@ -234,7 +234,7 @@ Before diving into the project, trainees should have a solid understanding of th
 - Commit your work related to vendor registration, product management, and listings.
 - Use meaningful commit messages like "Implemented vendor registration and product management."
 
-**Day 10-11: Deployment and Scaling**
+# **Day 10-11: Deployment and Scaling**
 
 **Morning:**
 
@@ -258,7 +258,7 @@ Before diving into the project, trainees should have a solid understanding of th
 - Commit your work related to deployment and scaling.
 - Use clear commit messages like "Deployed the app to Heroku and set up monitoring."
 
-**Day 12-13: Security, Testing, and Documentation**
+# **Day 12-13: Security, Testing, and Documentation**
 
 **Morning:**
 
@@ -286,7 +286,7 @@ Before diving into the project, trainees should have a solid understanding of th
 - Commit your work related to security, testing, and documentation.
 - Use clear commit messages like "Implemented security measures and updated documentation."
 
-**Day 14: Course Conclusion and Review**
+# **Day 14: Course Conclusion and Review**
 
 **Morning:**
 

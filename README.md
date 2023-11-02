@@ -1,4 +1,4 @@
-﻿**Prerequisites**
+﻿ # **Prerequisites**
 Before diving into the project, trainees should have a solid understanding of the following technologies and concepts:
 
 - HTML, CSS, and JavaScript.

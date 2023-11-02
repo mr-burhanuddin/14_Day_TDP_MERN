@@ -1,29 +1,29 @@
 ﻿**Prerequisites**
 Before diving into the project, trainees should have a solid understanding of the following technologies and concepts:
 
-# HTML, CSS, and JavaScript.
+- HTML, CSS, and JavaScript.
 
-# Basic knowledge of React, Node.js, and Express.
+- Basic knowledge of React, Node.js, and Express.
 
-# Familiarity with MongoDB.
+- Familiarity with MongoDB.
 
-# TypeScript fundamentals.
+- TypeScript fundamentals.
 
-# Basic understanding of RESTful APIs.
+- Basic understanding of RESTful APIs.
 
-# Git and version control.
+- Git and version control.
 
 **Figma Design Resources**
 
-# [LINK-1](<https://www.figma.com/file/mAKRfEyXxF4D4t8Zg21EA2/e-commerce-(Community)?type=design&node-id=0-1&mode=design&t=gnIx2K1vHXNZlR1P-0>)
+- [LINK-1](<https://www.figma.com/file/mAKRfEyXxF4D4t8Zg21EA2/e-commerce-(Community)?type=design&node-id=0-1&mode=design&t=gnIx2K1vHXNZlR1P-0>)
 
-# [LINK-2](<https://www.figma.com/file/gFGrAYYkaYaFWqh0HRwwtq/E-commerce-Dashboard-Templates-UI-kit-(Community)?type=design&node-id=0-1&mode=design&t=ZZHurAkrX2WN71iR-0>)
+- [LINK-2](<https://www.figma.com/file/gFGrAYYkaYaFWqh0HRwwtq/E-commerce-Dashboard-Templates-UI-kit-(Community)?type=design&node-id=0-1&mode=design&t=ZZHurAkrX2WN71iR-0>)
 
-# [LINK-3](<https://www.figma.com/file/WV8yUyyre9OBTrwJxcdW9f/E-commerce-Website-Template-(Freebie)-(Community)?type=design&node-id=0-1&mode=design&t=68PdUOgdYqcCMbcf-0>)
+- [LINK-3](<https://www.figma.com/file/WV8yUyyre9OBTrwJxcdW9f/E-commerce-Website-Template-(Freebie)-(Community)?type=design&node-id=0-1&mode=design&t=68PdUOgdYqcCMbcf-0>)
 
-# [LINK-4](<https://www.figma.com/file/Jw6PTQgRkK4ZHr9DSQ4jWs/Full-E-Commerce-Website-UI-UX-Design-(Community)?type=design&node-id=1-3&mode=design&t=TTHERqcDZ7m0cgmC-0>)
+- [LINK-4](<https://www.figma.com/file/Jw6PTQgRkK4ZHr9DSQ4jWs/Full-E-Commerce-Website-UI-UX-Design-(Community)?type=design&node-id=1-3&mode=design&t=TTHERqcDZ7m0cgmC-0>)
 
-# [LINK-5](<https://www.figma.com/file/lhq819U1orOTRkdqROygoF/Evaly-e-commerce-dashboard-(Community)?type=design&node-id=0-1&mode=design&t=MimCNZTVfGDaa7FS-0>)
+- [LINK-5](<https://www.figma.com/file/lhq819U1orOTRkdqROygoF/Evaly-e-commerce-dashboard-(Community)?type=design&node-id=0-1&mode=design&t=MimCNZTVfGDaa7FS-0>)
 
 **Day 1: Setting Up the Project**
 

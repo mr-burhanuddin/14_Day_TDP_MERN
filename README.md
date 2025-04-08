@@ -331,7 +331,7 @@
 
 ---
 
-## \***\*Week 8: Live Project Collaboration with Mentor**
+## **Week 8: Live Project Collaboration with Mentor**
 
 **Goals:**
 

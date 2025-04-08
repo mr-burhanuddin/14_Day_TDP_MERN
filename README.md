@@ -1,309 +1,432 @@
-﻿ # **Prerequisites**
-Before diving into the project, trainees should have a solid understanding of the following technologies and concepts:
+﻿## **Program Overview**
 
-- HTML, CSS, and JavaScript.
+- **Duration:** 2 Months (8 Weeks / 40 Workdays)
+- **Mode:** Agile/Scrum – daily stand‑ups, sprint planning, mid‑sprint reviews, retrospectives
+- **Tech Stack Focus:**
 
-- Basic knowledge of React, Node.js, and Express.
+  - **Frontend:** React, TypeScript, any modern CSS library (e.g., Styled Components or Tailwind CSS)
+  - **Tooling:** Vite, RSPack, ESLint, Prettier, Husky
+  - **State & Data Management:** Redux Toolkit, React Query, Zustand
+  - **Visualization:** ECharts
+  - **Architecture Trends:** Robust folder structures, Micro Frontend, Monorepo
+  - **Additional Skills:** Debugging, API documentation, time estimates/timeline documentation
+  - **Bonus:** Intro to AI concepts in the context of web development
 
-- Familiarity with MongoDB.
+- **Mentorship:** Daily stand‑ups and dedicated mentor sessions for doubt clearing and progress updates
 
-- TypeScript fundamentals.
+---
 
-- Basic understanding of RESTful APIs.
+## **Week 1: Onboarding, Company Culture & Agile Fundamentals**
 
-- Git and version control.
+**Goals:**
 
-**Figma Design Resources**
+- Introduce company culture, team structure, and the Agile mindset
+- Familiarize new joiners with the tech stack and necessary development tools
+- Set up the development environment and introduce SCRUM processes
 
-- [LINK-1](<https://www.figma.com/file/mAKRfEyXxF4D4t8Zg21EA2/e-commerce-(Community)?type=design&node-id=0-1&mode=design&t=gnIx2K1vHXNZlR1P-0>)
+**Daily Breakdown:**
 
-- [LINK-2](<https://www.figma.com/file/gFGrAYYkaYaFWqh0HRwwtq/E-commerce-Dashboard-Templates-UI-kit-(Community)?type=design&node-id=0-1&mode=design&t=ZZHurAkrX2WN71iR-0>)
+- **Day 1:**
 
-- [LINK-3](<https://www.figma.com/file/WV8yUyyre9OBTrwJxcdW9f/E-commerce-Website-Template-(Freebie)-(Community)?type=design&node-id=0-1&mode=design&t=68PdUOgdYqcCMbcf-0>)
+  - **Morning:** Welcome session, company overview, role expectations
+  - **Afternoon:** Introduction to the Agile/Scrum mindset; review resources such as [Atlassian’s Agile/Scrum Guide](https://www.atlassian.com/agile/scrum)
+  - **Task:** Set up communication channels (Slack, Teams, etc.) and calendar integration for daily stand‑ups
 
-- [LINK-4](<https://www.figma.com/file/Jw6PTQgRkK4ZHr9DSQ4jWs/Full-E-Commerce-Website-UI-UX-Design-(Community)?type=design&node-id=1-3&mode=design&t=TTHERqcDZ7m0cgmC-0>)
+- **Day 2:**
 
-- [LINK-5](<https://www.figma.com/file/lhq819U1orOTRkdqROygoF/Evaly-e-commerce-dashboard-(Community)?type=design&node-id=0-1&mode=design&t=MimCNZTVfGDaa7FS-0>)
+  - **Focus:** Deep dive into the Agile framework
+  - **Morning:** Review [Coursera’s Agile Development and Scrum Course](https://www.coursera.org/learn/agile-development-and-scrum?action=enroll#reviews) and discussion on roles (Scrum Master, Product Owner, Team Members)
+  - **Afternoon:** Participate in a simulated sprint planning meeting
+  - **Task:** Write a short reflection on Agile principles and how you see yourself contributing
 
-# **Day 1: Setting Up the Project**
+- **Day 3:**
 
-**Morning:**
+  - **Focus:** Environment and tool setup
+  - **Morning:** Install and configure Node.js, VS Code, Git, and set up a React project using Vite
+  - **Afternoon:** Configure ESLint, Prettier, and Husky; review setup guides
+  - **Task:** Create and share your “Hello World” React app repository on the company Git server
 
--- **Project Kickoff:**
+- **Day 4:**
 
-- Review the project scope document.
-- Identify key stakeholders.
-- Assign roles and responsibilities within the development team.
-- Draft a project charter that includes the project's vision and goals.
-  -- **Initial Project Setup:**
-- Create a dedicated project folder with a descriptive name (e.g., "e-commerce-app").
-- Initialize a Git repository with `git init`.
-- Set up a remote repository on GitHub or another version control platform.
+  - **Focus:** Overview of the tech stack
+  - **Morning:** Introduction session on React, TypeScript, and the modern CSS library choices (e.g., Styled Components/Tailwind). Resources: [React Official Docs](https://react.dev/learn) and [W3Schools React Tutorial](https://www.w3schools.com/REACT/DEFAULT.ASP)
+  - **Afternoon:** Hands‑on demo: Creating a simple component library with TypeScript. (Button with variants, Accordion, Modal or simplified version of component that we are using in Live project)
+  - **Task:** Document the folder structure for the demo project, noting best practices for scalability
 
-**Afternoon:**
+- **Day 5:**
 
--- **Create the Frontend:**
+  - **Focus:** Agile simulation and retrospective
+  - **Morning:** Daily stand‑up and sprint planning for the first mini sprint (the week’s tasks become sprint backlog items)
+  - **Afternoon:** Group discussion and retrospective on the onboarding experience
+  - **Task:** Submit a brief personal plan highlighting individual learning goals (Document what learned so far, challenges, new learning etc.)
 
-- Use Create React App with TypeScript to generate the frontend project.
-- Ensure the basic application structure is created.
-- Run the app locally with `npm start` to confirm successful setup.
-  -- **Create the Backend:**
-- Initialize a Node.js project with `npm init`.
-- Install Express.js using `npm install express`.
-- Organize your project folders (e.g., routes, controllers, models).
-- Create a simple Express server with a single route that returns "Hello, World!".
+---
 
-**End of Day:**
+## **Week 2: Advanced React, TypeScript & Debugging Fundamentals**
 
--- **Git Commit:**
+**Goals:**
 
-- Commit and push your initial frontend and backend code to the respective GitHub repositories.
-- Use meaningful commit messages, such as "Initial project setup."
+- Explore the use of TypeScript in React projects
+- Develop strong debugging skills
+- Learn how to integrate formatters and linters from the start
 
-# **Day 2: Implementing User Authentication**
+**Daily Breakdown:**
 
-**Morning:**
+- **Day 6:**
 
--- **Login and Registration Routes:**
+  - **Topic:** Introduction to TypeScript
+  - **Morning:** Tutorials using resources such as [W3Schools TypeScript](https://www.w3schools.com/typescript/index.php) and [FreeCodeCamp’s TS guide](https://www.freecodecamp.org/news/learn-typescript-beginnersguide/)
+  - **Afternoon:** Convert a small React component from JavaScript to TypeScript
+  - **Task:** Write notes on common type errors and fixes
 
-- Create routes for user registration and login in the backend.
-- Use Express.js to define routes like `/api/register` and `/api/login`.
-- Ensure these routes return mock responses for now to check their functionality.
-  -- **Database Connection:**
-- Sign up for a MongoDB Atlas account (or use an existing one).
-- Create a new cluster and generate connection details.
-- Configure your Node.js application to connect to the MongoDB cluster using a package like `mongoose`.
+- **Day 7:**
 
-**Afternoon:**
+  - **Topic:** Debugging Basics
+  - **Morning:** Workshop on using browser developer tools (Chrome DevTools, React DevTools) and understanding error boundaries in React
+  - **Afternoon:** Mentor-led debugging session on deliberately broken code snippets
+  - **Task:** Document debugging strategies and common pitfalls in a shared document
 
--- **User Schema:**
+- **Day 8:**
 
-- Define a user schema using Mongoose, specifying properties like username, email, and password.
-- Define validation rules, such as email format and password complexity.
-- Create a user model and export it from a separate module.
-  -- **User Registration:**
-- Implement the user registration route (`/api/register`) to handle POST requests.
-- Parse incoming data, validate it, and hash the user's password using a library like `bcrypt`.
-- Store the user data in the MongoDB database.
+  - **Topic:** Linting and Formatting
+  - **Morning:** Deep dive into ESLint, Prettier, and Husky configuration
+  - **Afternoon:** Hands‑on session: Configure these tools in your TypeScript React project
+  - **Task:** Ensure your repository enforces code standards via pre‑commit hooks
 
-**End of Day:**
+- **Day 9:**
 
--- **Git Commit:**
+  - **Routine:** Daily stand‑up, sprint review, and Q&A session
+  - **Task:** Peer review session focusing on identifying and resolving debugging issues
 
-- Commit your work related to user registration and database setup.
-- Include descriptive commit messages like "Implemented user registration route and database connection."
+- **Day 10:**
 
-# **Day 3: User Authentication and Token Generation**
+  - **Topic:** Integrated Coding Session
+  - **Morning:** Pair programming exercise: Building a small widget with React + TypeScript
+  - **Afternoon:** Mentor-led session focusing on debugging, error logging, and code documentation
+  - **Task:** Update your project README with setup instructions, debugging tips, and a log of challenges encountered
 
-**Morning:**
+---
 
--- **User Login:**
+## **Week 3: State Management, API Documentation & Best Practices**
 
-- Develop the user login route (`/api/login`) to handle POST requests with email and password.
-- Validate the user's credentials by checking the stored hashed password.
-- If credentials are valid, generate a JSON Web Token (JWT) and send it as a response.
-  -- **JWT Implementation:**
-- Install the `jsonwebtoken` package for generating JWTs.
-- Create a function that generates JWTs with a secret key. Pass user information as the payload.
+**Goals:**
 
-**Afternoon:**
+- Introduce state management libraries and API integration
+- Begin API documentation practices and robust project documentation
 
--- **JWT Authorization Middleware:**
+**Daily Breakdown:**
 
-- Implement a middleware function for protecting routes that require authentication.
-- Use the JWT to verify the user's identity and authorization.
-- Apply this middleware to routes that need user authentication, such as accessing user profiles or orders.
+- **Day 11:**
 
-**End of Day:**
+  - **Topic:** State Management with Redux Toolkit
+  - **Morning:** Theory session with resources from Udemy ([React+Redux Course](https://www.udemy.com/course/react-redux/?couponCode=ST15MT31224))
+  - **Afternoon:** Implement state management in your project using Redux Toolkit
+  - **Task:** Document state flows and update the project’s folder structure accordingly
 
--- **Git Commit:**
+- **Day 12:**
 
-- Commit your work on user login, JWT implementation, and middleware.
-- Use meaningful commit messages like "Implemented user login, JWT generation, and authentication middleware."
+  - **Topic:** Alternative State Management Solutions
+  - **Morning:** Introduce React Query and Zustand; compare use cases
+  - **Afternoon:** Hands‑on: Create sample hooks that manage remote API calls
+  - **Task:** Write a short summary comparing the different state management approaches
 
-# **Day 4: Implementing Product Listings and Cart**
+- **Day 13:**
 
-**Morning:**
+  - **Topic:** Consuming APIs & Documentation
+  - **Morning:** Overview of API consumption; best practices using tools like Postman or Swagger
+  - **Afternoon:** Task: Build an integration that consumes an external API and document the endpoints
+  - **Task:** Create an API documentation page (using Markdown or a tool like Swagger UI)
 
--- **Product Listings:**
+- **Day 14:**
 
-- Create routes and controllers for retrieving product listings from the database.
-- Develop endpoints like `/api/products` to fetch and display products in the frontend.
-- Ensure that product data includes details like name, description, price, and images.
-  -- **Product Listing in Frontend:**
-- Create components for displaying product listings.
-- Design a responsive UI for presenting products.
-- Implement product filtering and sorting features for user convenience.
+  - **Topic:** Documentation & Debugging in API Calls
+  - **Morning:** Mentor session on best practices for API documentation
+  - **Afternoon:** Exercises on integrating detailed logging and error handling in API calls
+  - **Task:** Peer review of API documentation to refine clarity and detail
 
-**Afternoon:**
+- **Day 15:**
 
--- **Shopping Cart:**
+  - **Routine:** Sprint review and retrospective focused on documentation and debugging
+  - **Task:** Prepare a demo of your state management and API integration module for cross‑team sharing
 
-- Create a shopping cart route and controller (`/api/cart`) to manage items in the cart.
-- Develop endpoints for adding, removing, and updating cart items.
-- Maintain cart data in the backend and ensure it's associated with the user.
-  -- **Shopping Cart in Frontend:**
-- Design and develop the shopping cart component in the frontend.
-- Implement user interactions for adding/removing items, updating quantities, and calculating the total.
+---
 
-**End of Day:**
+## **Week 4: Modern Tooling – Vite, RSPack & Project Structure**
 
--- **Git Commit:**
+**Goals:**
 
-- Commit your work related to product listings and the shopping cart.
-- Use clear commit messages like "Implemented product listings and shopping cart functionality."
+- Learn modern build tools and module bundlers
+- Establish robust folder structures and project organization
+- Gain fluency in setting up projects that align with industry best practices
 
-# **Day 5: Checkout Process and Payment Integration**
+**Daily Breakdown:**
 
-**Morning:**
+- **Day 16:**
 
--- **Checkout Process:**
+  - **Topic:** Deep Dive into Vite
+  - **Morning:** Explore Vite’s benefits compared to older build tools; review its [documentation](https://vitejs.dev/)
+  - **Afternoon:** Setup a demo project with Vite and optimize it for fast reloads
+  - **Task:** Document configuration settings and performance improvements observed
 
-- Develop a route for processing orders (`/api/checkout`).
-- Allow users to review their cart and enter shipping and payment details.
-- Validate and process the order, deduct inventory, and prepare order status.
-  -- **Implement Payment Gateway:**
-- Choose a payment gateway (e.g., Stripe) and set up an account.
-- Integrate the payment gateway SDK into your application.
-- Implement payment processing with a test card and ensure the payment is confirmed.
+- **Day 17:**
 
-**Afternoon:**
+  - **Topic:** Introducing RSPack
+  - **Morning:** Learn what RSPack offers as a modern bundler alternative
+  - **Afternoon:** Compare RSPack with Vite by setting up small experiments
+  - **Task:** Write a brief report outlining when and why to choose one tool over the other
 
--- **Order Confirmation:**
+- **Day 18:**
 
-- Send order confirmation emails to users upon successful payment.
-- Create a confirmation page for users after checkout.
-- Update order status in the database.
+  - **Topic:** Robust Folder Structures
+  - **Morning:** Discussion on best practices for folder organization in large-scale React projects
+  - **Afternoon:** Redesign your project folder structure; include modular patterns for scalability
+  - **Task:** Create a diagram that explains your folder structure and share with the team
 
-**End of Day:**
+- **Day 19:**
 
--- **Git Commit:**
+  - **Topic:** Integrating Code Quality Tools
+  - **Morning:** Recap ESLint, Prettier, and Husky in the context of modern development
+  - **Afternoon:** Group exercise to enforce strict linting rules and commit hooks
+  - **Task:** Ensure that every commit is automatically verified by these tools
 
-- Commit your work related to the checkout process and payment integration.
-- Use meaningful commit messages like "Implemented checkout process and integrated payment gateway."
+- **Day 20:**
 
-# **Day 6-7: User Profile and Order History**
+  - **Routine:** Sprint review and mentor Q&A
+  - **Task:** Present a sample project that integrates modern tooling with robust folder structures
 
-**Morning:**
+---
 
--- **User Profile:**
+## **Week 5: Advanced Architectures – Micro Frontends & Monorepo Strategy**
 
-- Create user profile routes and controllers for viewing and updating user information.
-- Allow users to change their email, password, and other details.
-- Include links to the profile page from the frontend.
+**Goals:**
 
-**Afternoon:**
+- Expose developers to cutting‑edge architectural trends
+- Experiment with micro frontend concepts and monorepo setups
 
--- **Order History:**
+**Daily Breakdown:**
 
-- Develop routes and controllers for viewing a user's order history.
-- List order details, including date, products, and order status.
-- Create a user-friendly order history page in the frontend.
+- **Day 21:**
 
-**End of Day:**
+  - **Topic:** Introduction to Micro Frontends
+  - **Morning:** Overview of micro frontend architecture and its benefits
+  - **Afternoon:** Review case studies and examples
+  - **Task:** Research and summarize a real‑world micro frontend application
 
--- **Git Commit:**
+- **Day 22:**
 
-- Commit your work related to user profile and order history features.
-- Use clear commit messages like "Implemented user profile management and order history functionality."
+  - **Topic:** Hands‑on Micro Frontend Workshop
+  - **Morning:** Guided exercise: Build a small self-contained micro app
+  - **Afternoon:** Discuss integration strategies with parent applications
+  - **Task:** Document your process, highlighting debugging and integration challenges
 
-# **Day 8-9: Vendor-Specific Features**
+- **Day 23:**
 
-**Morning:**
+  - **Topic:** Monorepo Fundamentals
+  - **Morning:** Introduction to monorepo tools (e.g., Lerna, Nx, Turborepo) and their benefits
+  - **Afternoon:** Start a monorepo structure to manage multiple related React projects
+  - **Task:** Create a simple multi‑project repository; document your folder structure and workflow
 
--- **Vendor Registration:**
+- **Day 24:**
 
-- Create routes and controllers for vendors to register.
-- Collect business-related details (e.g., business name, tax information).
-- Implement vendor registration pages in the frontend.
-  -- **Vendor Product Management:**
-- Allow vendors to add, edit, and delete products.
-- Ensure vendors can manage product details, images, and availability.
+  - **Topic:** Integrating Micro Frontends & Monorepo
+  - **Morning:** Hands‑on session combining micro frontend modules within a monorepo
+  - **Afternoon:** Peer collaboration and code review session
+  - **Task:** Ensure all modules include API documentation and clear debugging logs
 
-**Afternoon:**
+- **Day 25:**
 
--- **Vendor Product Listings:**
+  - **Routine:** Daily stand‑up and mentor troubleshooting session
+  - **Task:** Team retrospective on architectural experiments; adjust methodologies based on feedback
 
-- Display products from vendors on the frontend.
-- Create vendor-specific product pages for customers to browse.
+---
 
-**End of Day:**
+## **Week 6: Advanced Debugging & AI Usage**
 
--- **Git Commit:**
+**Goals:**
 
-- Commit your work related to vendor registration, product management, and listings.
-- Use meaningful commit messages like "Implemented vendor registration and product management."
+- Elevate debugging skills to an advanced level
+- Integrate AI fundamentals into front‑end development
 
-# **Day 10-11: Deployment and Scaling**
+**Daily Breakdown:**
 
-**Morning:**
+- **Day 26:**
 
--- **Deployment to Hosting Platform:**
+  - **Topic:** AI Fundamentals for Front‑end Developers
+  - **Morning:** Introductory session on AI and its impact on web development
+  - **Afternoon:** Explore resources and demos (online articles, YouTube introductions, and free courses)
+  - **Task:** Write a brief report on potential AI integrations in your workflow
 
-- Choose a hosting platform (e.g., Heroku, AWS) and deploy your app.
-- Configure environment variables for sensitive data (e.g., database connection, JWT secret).
-- Set up a CI/CD pipeline for automated deployments.
+- **Day 27:**
 
-**Afternoon:**
+  - **Topic:** AI Integration Workshop
+  - **Morning:** Build a Chatbot component using AI
+  - **Afternoon:** Discuss challenges and benefits of incorporating AI
+  - **Task:** Document the integration process and update project documentation
 
--- **Monitoring and Scaling:**
+- **Day 28:**
 
-- Implement monitoring tools (e.g., Sentry) to track application performance and errors.
-- Plan for scaling your app to handle increased traffic and data.
+  - **Topic:** Advanced Debugging Techniques
+  - **Morning:** Workshop on performance profiling, logging, and error monitoring
+  - **Afternoon:** Solve advanced debugging exercises using real‑life scenarios
+  - **Task:** Create a “Debugging Best Practices” guide for the team
 
-**End of Day:**
+- **Day 29:**
 
--- **Git Commit:**
+  - **Topic:** Code Quality and Error Analysis
+  - **Morning:** Pair programming on debugging complex issues and code smells
+  - **Afternoon:** Mentor-led session: Reviewing how errors are handled in production environments
+  - **Task:** Update your project with enhanced error boundaries and logging mechanisms
 
-- Commit your work related to deployment and scaling.
-- Use clear commit messages like "Deployed the app to Heroku and set up monitoring."
+- **Day 30:**
 
-# **Day 12-13: Security, Testing, and Documentation**
+  - **Routine:** Daily stand‑up, peer code review and debugging showcase
+  - **Task:** Present a debugging case study from your own work during the session
 
-**Morning:**
+---
 
--- **Security Best Practices:**
+## **Week 7: Integrated Project, Documentation, & Agile Wrap‑Up**
 
-- Perform security audits to ensure the application is secure against common threats (e.g., SQL injection, XSS).
-- Implement security headers (e.g., Content Security Policy) in the frontend.
-- Regularly update dependencies to patch security vulnerabilities.
-  -- **Testing and Quality Assurance:**
-- Write unit tests and integration tests for both the backend and frontend.
-- Test user registration, login, and other critical user flows.
-- Perform user acceptance testing to identify and address usability issues.
+**Goals:**
 
-**Afternoon:**
+- Integrate all learned skills into a final project
+- Emphasize thorough documentation and agile planning
+- Conclude with a final sprint review and retrospective
 
--- **Documentation:**
+**Daily Breakdown:**
 
-- Create comprehensive documentation for developers and administrators.
-- Include installation instructions, API documentation, and troubleshooting guides.
+- **Day 31:**
 
-**End of Day:**
+  - **Topic:** Kick‑off Final Integrated Project
+  - **Morning:** Form teams to build a mini e‑commerce web app or a similar full‑stack project
+  - **Afternoon:** Establish sprint goals, assign roles, and set timelines (include time estimates as part of the process)
+  - **Task:** Start planning project architecture, folder structures, and API contracts
 
--- **Git Commit:**
+- **Day 32:**
 
-- Commit your work related to security, testing, and documentation.
-- Use clear commit messages like "Implemented security measures and updated documentation."
+  - **Topic:** Focus on Documentation
+  - **Morning:** Workshop on API documentation, inline code commenting, and user guides
+  - **Afternoon:** Teams work on documenting their project modules clearly
+  - **Task:** Ensure documentation covers setup instructions, API details, and debugging guides
 
-# **Day 14: Course Conclusion and Review**
+- **Day 33:**
 
-**Morning:**
+  - **Topic:** Agile Estimation & Time Management
+  - **Morning:** Session on best practices for time estimates/timelines using Agile tools (e.g., Jira or Trello)
+  - **Afternoon:** Teams refine their project backlog, estimate tasks, and update sprint boards
+  - **Task:** Deliver a documented sprint plan with clearly defined time estimates
 
--- **Project Review:**
+- **Day 34:**
 
-- Review the entire project from start to finish.
-- Discuss lessons learned and challenges faced during development.
-- Address any remaining issues and make final improvements.
-  -- **Conclusion and Next Steps:**
-- Summarize the course journey and what developers have achieved.
-- Discuss next steps, including potential enhancements and future features.
+  - **Topic:** Final Project Work & Integration
+  - **Morning:** Full‑team coding session to merge all modules; ensure best practices are enforced
+  - **Afternoon:** Last round of debugging, API documentation review, and code refactoring
+  - **Task:** Prepare the project for a final demo session
 
-**Afternoon:**
+- **Day 35:**
 
--- **Course Completion:**
+  - **Routine:** Final sprint review, project demos, and a team retrospective
+  - **Morning:** Each team presents their projects focusing on technical challenges solved (debugging, documentation, architectural decisions)
+  - **Afternoon:** Overall program retrospective—gather feedback, discuss improvements, and outline next steps for continuous learning
+  - **Task:** Each participant submits a personal learning report and career development plan
 
-- Hand out certificates or completion badges to course participants.
-- Encourage participants to share their project experience and showcase their e-commerce app.
+---
 
-By following this detailed plan from Day 4 to Day 14, developers can gradually build a multi-vendor, multi-role e-commerce web app with a focus on specific features and components each day. This structured approach allows for better organization and understanding of the development process.
+## \***\*Week 8: Live Project Collaboration with Mentor**
+
+**Goals:**
+
+- Apply all concepts in a real-world context
+- Collaborate on a live production-grade project under mentor guidance
+- Understand workflows, code standards, and communication in actual team settings
+
+**Daily Breakdown:**
+
+- **Day 36:**
+
+  - **Topic:** Introduction to the Live Project
+  - **Morning:** Mentor-led walkthrough of the live project – goals, architecture, tech stack, and current progress
+  - **Afternoon:** Set up the development environment and resolve initial onboarding issues
+  - **Task:** Explore the codebase and write a document summarizing key modules and APIs used
+
+- **Day 37 & 38:**
+
+  - **Topic:** Issue Assignment & Setup
+  - **Morning:** Receive initial tasks (bug fixes or feature tickets); understand JIRA/Trello workflows for live issues
+  - **Afternoon:** Start working on your first ticket in collaboration with the mentor
+  - **Task:** Share a WIP update and log blockers in the team’s tracking system
+
+- **Day 39:**
+
+  - **Topic:** Code Review & Quality Standards
+  - **Morning:** Peer and mentor code review session
+  - **Afternoon:** Make improvements and refactor based on review suggestions
+  - **Task:** Document learnings from the review in a personal development log
+
+- **Day 40:**
+
+  - **Routine:** Sprint review, final discussion, and wrap-up session
+  - **Morning:** Present your contribution to the live project, highlighting challenges and resolutions
+  - **Afternoon:** Mentor retrospective – feedback on collaboration, code quality, and growth
+  - **Task:** Final submission: a personal report detailing your live project experience and next learning steps
+
+---
+
+## **Additional Resources Throughout the Program**
+
+- **Agile & Scrum:**
+
+  - [Atlassian Scrum Guide](https://www.atlassian.com/agile/scrum)
+  - [Coursera: Agile Development and Scrum](https://www.coursera.org/learn/agile-development-and-scrum?action=enroll#reviews)
+  - [Udemy: Scrum Developer Certified (SDC)](https://www.udemy.com/course/scrum-developer-certified-sdc/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Search_DSA_Alpha_Prof_la.EN_cc.India&campaigntype=Search&portfolio=India&language=EN&product=Course&test=&audience=DSA&topic=Project_Management&priority=Alpha&utm_content=deal4584&utm_term=_._ag_160270534985_._ad_696202838289_._kw__._de_c_._dm__._pl__._ti_aud-2297301418005%3Adsa-1677053908688_._li_9301444_._pd__._&matchtype=&gad_source=1&gclid=Cj0KCQjw782_BhDjARIsABTv_JC4Qlfdod78h6I8g8OCd0TUgozH-guX0hzXvLqVRP1OpYFSVw0zAFcaAtShEALw_wcB&couponCode=IND21PM)
+
+- **HTML & CSS:**
+
+  - [W3Schools HTML Tutorial](https://www.w3schools.com/html/default.asp)
+  - [W3Schools CSS Tutorial](https://www.w3schools.com/css/default.asp)
+  - [Sass Guide](https://sass-lang.com/guide/)
+
+- **JavaScript & TypeScript:**
+
+  - [W3Schools JavaScript](https://www.w3schools.com/js/default.asp)
+  - [JavaScript.info](https://javascript.info/)
+  - [JavaScript Tutorial](https://www.javascripttutorial.net/)
+  - [W3Schools TypeScript](https://www.w3schools.com/typescript/index.php)
+  - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html)
+  - [FreeCodeCamp TS Guide](https://www.freecodecamp.org/news/learn-typescript-beginnersguide/)
+
+- **React & Redux:**
+
+  - [React Official Documentation](https://react.dev/learn)
+  - [W3Schools React Tutorial](https://www.w3schools.com/REACT/DEFAULT.ASP)
+  - [Udemy: React+Redux Course](https://www.udemy.com/course/react-redux/?couponCode=ST15MT31224)
+
+- **Additional Full‑Stack Exposure:**
+
+  - [Udemy: Node with React – Fullstack Web Development](https://www.udemy.com/course/node-with-react-fullstack-web-development/)
+  - [Udemy: React, Node.js, Express, MongoDB – The MERN Fullstack Guide](https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/?couponCode=ST15MT31224)
+
+- **Other Important Links:**
+  - [Vite Docs](https://vitejs.dev/guide/)
+  - [Typescript Docs](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html)
+  - [Tailwind Docs](https://tailwindcss.com/docs/installation)
+  - [Project Architecture Example Git Repo](https://github.com/alan2207/bulletproof-react)
+  - [Debugging Chrome Devtools](https://developer.chrome.com/docs/devtools/javascript/)
+  - [React Query Docs](https://tanstack.com/query/latest/)
+  - [Redux Toolkit](https://redux-toolkit.js.org/)
+  - [Zustand Docs](https://docs.pmnd.rs/zustand/getting-started/introduction)
+  - [Micro Frontends / Module Federation ](https://module-federation.io/)
+  - [Turborepo](https://turbo.build/repo/docs)
+  - [Monorepo](https://nx.dev/getting-started/tutorials/react-monorepo-tutorial)
+
+---
+
+## **Final Notes**
+
+- **Daily Agile Practices:**  
+  Every day starts with a short stand‑up meeting (either virtual or in‑person) to discuss progress, blockers, and planning. End each day with a brief recap if needed and maintain a shared log of debugging lessons and API document updates.
+- **Mentorship and Peer Collaboration:**  
+  A designated mentor is available for doubt clearing, with scheduled check‑ins and pair programming sessions throughout the program.
+- **Project-Based Learning:**  
+  The final integrated project (mini e‑commerce app or a similar multi‑module application) is designed to require the use of all skills learned — from setting up modern tooling, following Agile practices, debugging, to delivering comprehensive documentation.
+- **Continuous Feedback:**  
+  Sprint retrospectives and peer code reviews are integral to the plan, ensuring constant improvement in both individual and team processes.

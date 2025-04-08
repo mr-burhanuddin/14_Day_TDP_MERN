@@ -309,10 +309,8 @@
 
 **Goals:**
 
-- Apply all concepts in a real-world context
-  
+- Apply all concepts in a real-world context 
 - Collaborate on a live production-grade project under mentor guidance
-  
 - Understand workflows, code standards, and communication in actual team settings
   
 
@@ -321,41 +319,29 @@
 - **Day 41:**
   
   - **Topic:** Introduction to the Live Project
-    
   - **Morning:** Mentor-led walkthrough of the live project – goals, architecture, tech stack, and current progress
-    
   - **Afternoon:** Set up the development environment and resolve initial onboarding issues
-    
   - **Task:** Explore the codebase and write a document summarizing key modules and APIs used
     
 - **Day 42 & 43:**
   
   - **Topic:** Issue Assignment & Setup
-    
   - **Morning:** Receive initial tasks (bug fixes or feature tickets); understand JIRA/Trello workflows for live issues
-    
   - **Afternoon:** Start working on your first ticket in collaboration with the mentor
-    
   - **Task:** Share a WIP update and log blockers in the team’s tracking system
     
 - **Day 44:**
   
   - **Topic:** Code Review & Quality Standards
-    
   - **Morning:** Peer and mentor code review session
-    
   - **Afternoon:** Make improvements and refactor based on review suggestions
-    
   - **Task:** Document learnings from the review in a personal development log
     
 - **Day 45:**
   
   - **Routine:** Sprint review, final discussion, and wrap-up session
-    
   - **Morning:** Present your contribution to the live project, highlighting challenges and resolutions
-    
   - **Afternoon:** Mentor retrospective – feedback on collaboration, code quality, and growth
-    
   - **Task:** Final submission: a personal report detailing your live project experience and next learning steps
     
 

@@ -290,90 +290,85 @@
 
 **Goals:**
 
-- Elevate debugging skills to an advanced level
-- Integrate AI fundamentals into front‑end development
+- Utilize AI tools for efficient project setup and configuration.
+- Leverage AI to identify and resolve code issues.
+- Enhance code quality through AI-driven error analysis and test case generation.
 
 **Daily Breakdown:**
 
-- **Day 31:**
+- **Day 31: Utilizing AI for Project Setup**
 
-  - **Topic:** AI Fundamentals for Front‑end Developers
-  - **Morning:** Introductory session on AI and its impact on web development
-  - **Afternoon:** Explore resources and demos (online articles, YouTube introductions, and free courses)
-  - **Task:** Write a brief report on potential AI integrations in your workflow
+  - **Morning Session:**
 
-- **Day 32:**
+    - Introduction to AI-powered project management and setup tools.
+    - Demonstration of tools like AI Code Generator for AI-driven project setup and code generation.
 
-  - **Topic:** AI Integration Workshop
-  - **Morning:** Build a Chatbot component using AI
-  - **Afternoon:** Discuss challenges and benefits of incorporating AI
-  - **Task:** Document the integration process and update project documentation
+  - **Afternoon Session:**
 
-- **Day 33:**
+    - Hands-on workshop: Setting up a new project using AI-assisted tools.
+    - Discussion on best practices for integrating AI into project workflows.
 
-  - **Topic:** Advanced Debugging Techniques
-  - **Morning:** Workshop on performance profiling, logging, and error monitoring
-  - **Afternoon:** Solve advanced debugging exercises using real‑life scenarios
-  - **Task:** Create a “Debugging Best Practices” guide for the team
+  - **Task:**
+    - Set up a sample project using an AI code generator tool and document the process, noting efficiencies gained and challenges encountered.
 
-- **Day 34:**
+- **Day 32: Leveraging AI for Code Debugging**
 
-  - **Topic:** Code Quality and Error Analysis
-  - **Morning:** Pair programming on debugging complex issues and code smells
-  - **Afternoon:** Mentor-led session: Reviewing how errors are handled in production environments
-  - **Task:** Update your project with enhanced error boundaries and logging mechanisms
+  - **Morning Session:**
 
-- **Day 35:**
+    - Overview of AI-powered debugging tools and their capabilities.
+    - Introduction to tools like Qwik,GPT,DeepSeek for intelligent bug detection and resolution.
 
-  - **Routine:** Daily stand‑up, peer code review and debugging showcase
-  - **Task:** Present a debugging case study from your own work during the session
+  - **Afternoon Session:**
 
----
+    - Practical session: Using AI tools to identify and fix bugs in existing codebases.
+    - Exploring AI-driven error detection and resolution suggestions. Github Copilot etc.
 
-## **Week 8: Integrated Project, Documentation, & Agile Wrap‑Up**
+  - **Task:**
+    - Debug a set of pre-written code snippets using an AI debugger and compare the results with manual debugging efforts.
 
-**Goals:**
+- **Day 33: Enhancing Code Quality, Error Analysis, and Test Case Generation with AI**
 
-- Integrate all learned skills into a final project
-- Emphasize thorough documentation and agile planning
-- Conclude with a final sprint review and retrospective
+  - **Morning Session:**
 
-**Daily Breakdown:**
+    - Exploring AI-driven test case generation tools like TEST Case Generator for comprehensive testing.
 
-- **Day 36:**
+  - **Afternoon Session:**
 
-  - **Topic:** Kick‑off Final Integrated Project
-  - **Morning:** Form teams to build a mini e‑commerce web app or a similar full‑stack project
-  - **Afternoon:** Establish sprint goals, assign roles, and set timelines (include time estimates as part of the process)
-  - **Task:** Start planning project architecture, folder structures, and API contracts
+    - Hands-on exercise: Using AI to analyze code quality and generate test cases.
+    - Implementing AI-suggested improvements and assessing their effectiveness.
 
-- **Day 37:**
+  - **Task:**
+    - Select a module from your project, use an AI tool to evaluate its quality, generate test cases, and document the improvements made based on AI recommendations.
 
-  - **Topic:** Focus on Documentation
-  - **Morning:** Workshop on API documentation, inline code commenting, and user guides
-  - **Afternoon:** Teams work on documenting their project modules clearly
-  - **Task:** Ensure documentation covers setup instructions, API details, and debugging guides
+- **Day 34: Advanced Debugging Techniques**
 
-- **Day 38:**
+  - **Morning Session:**
 
-  - **Topic:** Agile Estimation & Time Management
-  - **Morning:** Session on best practices for time estimates/timelines using Agile tools (e.g., Jira or Trello)
-  - **Afternoon:** Teams refine their project backlog, estimate tasks, and update sprint boards
-  - **Task:** Deliver a documented sprint plan with clearly defined time estimates
+    - Workshop on performance profiling, logging, and error monitoring.
+    - Exploring advanced debugging exercises using real-life scenarios.
 
-- **Day 39:**
+  - **Afternoon Session:**
 
-  - **Topic:** Final Project Work & Integration
-  - **Morning:** Full‑team coding session to merge all modules; ensure best practices are enforced
-  - **Afternoon:** Last round of debugging, API documentation review, and code refactoring
-  - **Task:** Prepare the project for a final demo session
+    - Hands-on practice: Solving complex debugging challenges.
+    - Developing a “Debugging Best Practices” guide for the team.
 
-- **Day 40:**
+  - **Task:**
+    - Create a comprehensive guide on advanced debugging techniques and share it with the team.
 
-  - **Routine:** Final sprint review, project demos, and a team retrospective
-  - **Morning:** Each team presents their projects focusing on technical challenges solved (debugging, documentation, architectural decisions)
-  - **Afternoon:** Overall program retrospective—gather feedback, discuss improvements, and outline next steps for continuous learning
-  - **Task:** Each participant submits a personal learning report and career development plan
+- **Day 35: Code Quality and Error Analysis**
+
+  - **Morning Session:**
+
+    - Pair programming on debugging complex issues and identifying code smells.
+    - Mentor-led session: Reviewing how errors are handled in production environments.
+
+  - **Afternoon Session:**
+
+    - Implementing enhanced error boundaries and logging mechanisms in the project.
+    - Discussion on strategies for maintaining high code quality.
+
+  - **Task:**
+    - Update your project with improved error handling and document the changes made.
 
 ---
 

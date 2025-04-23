@@ -372,7 +372,7 @@
 
 ---
 
-## **Week 8: PL/SQL **
+## **Week 8: PL/SQL**
 
 **Goals:**
 
